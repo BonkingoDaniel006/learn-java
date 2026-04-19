@@ -1,3 +1,5 @@
+// print + indentation
+
 /*public class Main {
     public static void main(String[] args){
         String nom = "Bokingo";
@@ -10,18 +12,56 @@
     }
 }*/
 
+//input
+
+/*import java.util.Scanner;
+public class Main {
+
+    public static void main(String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("votre nom: ");
+        String nom = sc.nextLine ();
+        System.out.println("Bonjour " + nom); 
+        sc.close();
+        }
+}*/
+
+
+//if, elif, else
 
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main (String[] args){
-        
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("entrez votre nom: ");
-        String nom = sc.nextLine();
-        System.out.println("bonjour " + nom);
-        sc.close();
+        System.out.print("Entrez votre note: ");
+        int age = sc.nextInt();
+        if (age < 10){
+            System.out.println("mention: Insufisant");
 
+        }
+        else if (age <= 11){
+            System.out.println("passable");
+
+        }
+        else if (age <= 13){
+            System.out.println("Assez bien");
+
+        }
+        else if (age <= 15){
+            System.out.println("Bien");
+
+        }
+        else if (age <= 17){
+            System.out.println("Très bien");
+
+        }
+        else if (age >= 18){
+            System.out.println("Excellent");
+
+        }
+        
+        sc.close();
     }
 }
