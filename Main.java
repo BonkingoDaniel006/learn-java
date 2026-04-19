@@ -29,7 +29,7 @@ public class Main {
 
 //if, elif, else
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Main {
 
@@ -64,4 +64,12 @@ public class Main {
         
         sc.close();
     }
-}
+}*/
+/* public class Main{
+    public static void main (String[] args) {
+        for (int i = 0; i <= 10; i+= 2){
+            System.out.println(i);
+
+        }
+    }
+}*/
