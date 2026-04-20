@@ -74,8 +74,7 @@ public class Main {
     }
 }*/
 
-
-public class Main {
+/*public class Main {
     public static void main (String[] args){
         int number = 0;
         while (number<5) {
@@ -83,4 +82,19 @@ public class Main {
             number++;
         }
     }
-}
+} */
+
+
+
+
+/*public class Main{
+    static void saluer(String nom) {
+            System.out.println("bonjour " + nom);
+            
+        }
+    public static void main (String[] args){
+        saluer("Daniel");
+    }
+} */
+
+    
